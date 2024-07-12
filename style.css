@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    height: 100vh;
+    background-color: #010212;
+    color: white;
+}
+
+nav {
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    text-decoration: none;
+    color: white;
+}
+
+.brand h1 {
+    font-size: 2.2rem;
+    display: inline-block;
+}
+
+.highlight {
+    color: #5ce1e6;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-item {
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #ddd;
+    padding: 10px;
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+.nav-item:hover {
+    color: #5ce1e6;
+    border-bottom: 3px solid #5ce1e6;
+}
+
+
+/*header-content*/
+.header-content {
+    height: calc(100vh - 60px); /* Subtract the height of the nav */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 85px;
+}
+
+.container-judul {
+    width: 550px;
+}
+
+#hero {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    
+}
+
+#perkenalan {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+#bidang {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+#follow-container {
+    width: 200px;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 25px 0px 10px;
+    cursor: pointer;
+}
+
+#follow-container:hover {
+    background-color: #004363;
+    color: #5ce1e6;
+}
+
+.media-nav {
+    width: 210px;
+    display: flex;
+    justify-content: center;
+}
+
+.media-list {
+    display: flex;
+    list-style-type: none;
+}
+
+.media-image {
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+}
+
+/*header-content end*/
+
